@@ -26,7 +26,7 @@ export function Hero() {
             <a href="#projetos" className="rounded-full bg-blue-600 px-6 py-3 font-semibold text-white shadow-glow transition hover:bg-blue-500">Ver Projetos</a>
             <a href="https://github.com/Gabriel-Dias-Santiago" target="_blank" className="glass rounded-full px-6 py-3 font-semibold text-white transition hover:bg-white/10"><Github className="mr-2 inline" size={18}/>GitHub</a>
             <a href="https://www.linkedin.com/in/gabriel-dias-santiago" target="_blank" className="glass rounded-full px-6 py-3 font-semibold text-white transition hover:bg-white/10"><Linkedin className="mr-2 inline" size={18}/>LinkedIn</a>
-            <a href="/Gabriel_Dias_Santiago_Frontend_CV.pdf" className="glass rounded-full px-6 py-3 font-semibold text-white transition hover:bg-white/10"><Download className="mr-2 inline" size={18}/>Currículo</a>
+            <a href="/pdf/Gabriel_Dias_Santiago_Frontend_CV.pdf" className="glass rounded-full px-6 py-3 font-semibold text-white transition hover:bg-white/10"><Download className="mr-2 inline" size={18}/>Currículo</a>
           </motion.div>
         </div>
         <motion.div animate={{ y: [0, -12, 0] }} transition={{ duration: 4, repeat: Infinity }} className="absolute bottom-10 right-8 hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:block">
