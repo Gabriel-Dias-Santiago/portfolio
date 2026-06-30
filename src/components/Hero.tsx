@@ -5,7 +5,7 @@ import { ArrowDown, Github, Linkedin, Download } from "lucide-react";
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative min-h-screen overflow-hidden bg-hero-grid bg-[size:48px_48px] pt-28">
+    <section id="inicio" className="relative min-h-screen overflow-x-hidden bg-hero-grid bg-[size:48px_48px] pt-28">
       <div className="absolute left-1/2 top-28 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-600/30 blur-[90px]" />
       <div className="absolute right-10 top-48 h-80 w-80 rounded-full bg-violet/20 blur-[110px]" />
       <div className="section relative flex min-h-[80vh] items-center">
@@ -13,7 +13,7 @@ export function Hero() {
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .7 }} className="mb-6 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">
             React • TypeScript • UI • Experiência do Usuário
           </motion.div>
-          <motion.h1 initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .8, delay: .1 }} className="gradient-text text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
+          <motion.h1 initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .8, delay: .1 }} className="gradient-text pb-2 leading-[1.08] text-5xl font-extrabold tracking-tight md:text-7xl lg:text-8xl">
             Gabriel Dias Santiago
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .8, delay: .2 }} className="mt-5 text-2xl font-semibold text-white md:text-3xl">
