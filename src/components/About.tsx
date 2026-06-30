@@ -19,7 +19,6 @@ export function About() {
         {points.map(([Icon, text]) => (
           <Reveal key={String(text)}>
             <div className="glass card-hover rounded-3xl p-5">
-              {/* @ts-expect-error icon type */}
               <Icon className="mb-4 text-blue-400" />
               <p className="font-semibold text-white">{text as string}</p>
             </div>
