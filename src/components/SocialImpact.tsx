@@ -11,7 +11,7 @@ export function SocialImpact() {
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-blue-400">Impacto Social</p>
           <h2 className="text-3xl font-bold text-white md:text-4xl">Tecnologia também é sobre pessoas.</h2>
           <p className="mt-5 max-w-4xl text-lg leading-8 text-muted">
-            Aos 18 anos participei voluntariamente do projeto Rompe Jugo, iniciativa voltada ao combate ao trabalho análogo à escravidão em um povoado. Essa experiência fortaleceu minha responsabilidade, empatia, colaboração e compromisso com impacto positivo.
+            Aos 18 anos participei voluntariamente do projeto Rompe Gibão, iniciativa voltada ao combate ao trabalho análogo à escravidão em um povoado. Essa experiência fortaleceu minha responsabilidade, empatia, colaboração e compromisso com impacto positivo.
           </p>
         </div>
       </Reveal>
